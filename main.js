@@ -20,7 +20,7 @@ const swiper = new Swiper('.swiper', {
 
 //--------------------------------------------------------------------
 
-alert('Strona w trakcie tworzenia (wersja alpha)');
+//alert('Strona w trakcie tworzenia (wersja alpha)');
 
 //--------------------------------------------------------------------
 
@@ -32,44 +32,58 @@ const harmonogram = document.querySelector('#harmonogram-container');
 
 const harmonogramContent = `
     <div id="harmonogram-container">
-        <h1>Harmonogram</h1>
+        <h1>Harmonogram spotkań</h1>
         <div class="harmonogram-inner-container harmonogram-inner-container-left">
             <div class="harmonogram-left-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie 1 &nbsp;&nbsp;&nbsp;[Data]</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quis quam. Possimus
-                        quis voluptatem laudantium et, voluptatibus sint earum quidem, nemo incidunt numquam
-                        similique dolore soluta est! Architecto, dolorum.</p>
+                    <h2>Spotkanie stacjonarne (I)</h2>
+                    <h4>Czwartek, 10 listopada 12:00–1:00pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu. Podczas spotkania:
+                        Zapoznanie się z opiekunem zespołu. Pierwsza integracja.</p>
                 </div>
             </div>
         </div>
         <div class="harmonogram-inner-container harmonogram-inner-container-right">
             <div class="harmonogram-right-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie 2 &nbsp;&nbsp;&nbsp;[Data]</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem qui maiores atque quas ducimus
-                        animi sit deleniti pariatur, magnam veniam dolorum. Voluptates, necessitatibus provident?
-                        Cum doloribus iure nostrum beatae dolorem.</p>
+                    <h2>Spotkanie Online (III)</h2>
+                    <h4>Czwartek, 17 listopada 8:00–9:30am</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Przedstawienie pomysłów
+                        opiekunowi. Dyskusja na ich temat – proponowanie zmian w pomysłach.
+                        Przedstawianie zalet i wad pomysłów.</p>
                 </div>
             </div>
         </div>
         <div class="harmonogram-inner-container harmonogram-inner-container-left">
             <div class="harmonogram-left-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie 3 &nbsp;&nbsp;&nbsp;[Data]</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sed quae. Natus quasi omnis
-                        exercitationem sint officiis adipisci, nobis a dolorum beatae vitae voluptas autem numquam
-                        aut eveniet, delectus nihil.</p>
+                    <h2>Spotkanie Online (V)</h2>
+                    <h4>Środa, 23 listopada 8:30–9:30am</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Przedstawienie opiekunowi
+                        wybranego pomysłu oraz innych rozwiązań już dostępnych na rynku, które dotyczą projektu.
+                        Krytyczne spojrzenie na pomysł z perspektywy opłacalności projektu.</p>
                 </div>
             </div>
         </div>
         <div class="harmonogram-inner-container harmonogram-inner-container-right">
             <div class="harmonogram-right-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie 4 &nbsp;&nbsp;&nbsp;[Data]</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quaerat praesentium dolore
-                        dignissimos possimus veritatis doloribus, assumenda facere molestiae harum, aperiam unde
-                        cumque repellendus ad itaque perferendis quae! Fugit, eius!</p>
+                    <h2>Spotkanie online (VII)</h2>
+                    <h4>Środa, 30 listopada 1:00–2:30pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Rozmowy nad zrealizowanym
+                        Impact Mapping, krytyczne spojrzenie nad obraną taktyką realizacji zadań. Dogłębna analiza
+                        pomysłów i rozwijanie ich na bieżąco.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (X)</h2>
+                    <h4>Środa, 7 grudnia 12:45–2:15pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu. Podczas spotkania: Dalsze rozważania
+                        na temat wybranego projektu. Wyznaczenie technologii potrzebnej podczas tworzenia
+                        projektu oraz do dalszego doczytania.</p>
                 </div>
             </div>
         </div>
@@ -99,27 +113,41 @@ planButton.addEventListener('click', e => {
 
             <div id="plan-inner-container">
                 <div class="plan-item plan-item-no-margin-top">
-                    <h2>Plan 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quis quam. Possimus
-                        quis voluptatem laudantium et, voluptatibus sint earum quidem, nemo incidunt numquam
-                        similique dolore soluta est! Architecto, dolorum.</p>
+                    <h2>15 grudnia 2022</h2>
+                    <p>Ostateczny wybór tematu.</p>
                 </div>
                 <div class="plan-item">
-                    <h2>Plan 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quis quam. Possimus
-                        quis voluptatem laudantium et, voluptatibus sint earum quidem, nemo incidunt numquam
-                        similique dolore soluta est! Architecto, dolorum.</p>
+                    <h2>16 grudnia 2022 – 8 stycznia 2023</h2>
+                    <p>Nauka technologii potrzebnych do wykonania projektu.</p>
                 </div>
                 <div class="plan-item">
-                    <h2>Plan 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quis quam. Possimus
-                        quis voluptatem laudantium et</p>
+                    <h2>8 stycznia – 8 lutego 2023</h2>
+                    <p>Stworzenie bazy danych i szkieletu aplikacji</p>
                 </div>
                 <div class="plan-item">
-                    <h2>Plan 4</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quis quam. Possimus
-                        quis voluptatem laudantium et, voluptatibus sint earum quidem, nemo incidunt numquam
-                        similique dolore soluta est! Architecto, dolorum.</p>
+                    <h2>6 lutego 2023</h2>
+                    <p>Udostępnienie raportów semestralnych poszczególnych członków zespołu.</p>
+                </div>
+                <div class="plan-item">
+                    <h2>9 lutego – 15 marca 2023</h2>
+                    <p>Dalsza praca nad backendem aplikacji.</p>
+                </div>
+                <div class="plan-item">
+                    <h2>16 marca – 15 kwietnia 2023</h2>
+                    <p>Dalsza praca nad frontendem aplikacji.</p>
+                </div>
+                <div class="plan-item">
+                    <h2>15 kwietnia – 19 maja 2023</h2>
+                    <p>Testowanie aplikacji.</p>
+                </div>
+                <div class="plan-item">
+                    <h2>20 – 25 maja 2023</h2>
+                    <p>Zakończenie pracy nad projektem i umieszczenie pełnej dokumentacji projektu
+                        na stronie www zespołu.</p>
+                </div>
+                <div class="plan-item">
+                    <h2>1 czerwca 2023</h2>
+                    <p>Publiczna prezentacja projektów.</p>
                 </div>
             </div>
         </div>`;
