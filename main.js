@@ -87,6 +87,60 @@ const harmonogramContent = `
                 </div>
             </div>
         </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XII)</h2>
+                    <h4>Środa, 14 grudnia 12:30–2:30pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu. Podczas spotkania: Potwierdzenie tego, że zostajemy przy pierwszej wizji naszego pomysłu - aplikacja pomagająca w oszczędzaniu pieniędzy podczas tankowania. Przedstawienie opiekunowi mocnych argumentów, które przemawiają nad słusznością pomysłu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XIII)</h2>
+                    <h4>Środa, 21 grudnia 12:00–2:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Dyskutowanie na temat realizacji założeń ustalonych na poprzednim spotkaniu. Przedstawienie sprawy związanej z rodzajami paliw, dostawców map oraz POI - (Point Of Interest).</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XV)</h2>
+                    <h4>Środa, 4 stycznia 12:00–2:00pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu. Podczas spotkania: Przedstawienie opiekunowi naszego projektu procesów na Miro. Omawianie ich oraz dokonywanie wymaganych poprawek w opisach działania poszczególnych procesów. Dodanie nowych procesów, które nie zostały uwzględnione wcześniej.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XVIII)</h2>
+                    <h4>Środa, 11 stycznia 12:00–2:00pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu. Podczas spotkania: Zaprezentowanie oraz omówienie ekranów użytkownika opiekunowi. Zaproponowanie zmian. Poruszanie tematu związanego z danymi map - problem z uzyskaniem danych o położeniu stacji benzynowych.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XIX)</h2>
+                    <h4>Środa, 18 stycznia 12:00–2:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Zaprezentowanie wyników naszej tygodniowej pracy (baza danych ze stacjami, poprawienie modeli ML, pobieranie informacji z API o cenach średnich w Polsce). Poruszenie tematu braku informacji o niektórych stacjach - źródła, z których korzystamy nie zapewniają wszystkich informacji na temat niektórych stacji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XX)</h2>
+                    <h4>Środa, 25 stycznia 12:00–1:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Zaprezentowanie opiekunowi podstawowego szkicu aplikacji we Flutter. Dyskutowanie na temat postępów pracy oraz licencji oprogramowania używanego podczas tworzenia aplikacji.</p>
+                </div>
+            </div>
+        </div>
     </div>`;
 
 harmonogram.innerHTML = harmonogramContent; // przy starcie strony
