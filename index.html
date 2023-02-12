@@ -35,6 +35,9 @@
                 <a href="#zespol">
                     <div class="menu-item">Zespół</div>
                 </a>
+                <a href="#raporty">
+                    <div class="menu-item">Raporty semestralne</div>
+                </a>
                 <a href="#dokumentacja">
                     <div class="menu-item">Dokumentacja</div>
                 </a>
@@ -121,7 +124,7 @@
                     <div class="flex-col czlonek-zespolu">
                         <img src="img/user-icon.png" alt="">
                         <figcaption>Adrian Rodzic</figcaption>
-                        <p>Rola</p>
+                        <p>Programista</p>
                         <div class="kontakt-container">
                             <img src="img/letter-icon.png" alt="">
                             <p>adrianrodzic@mat.umk.pl</p>
@@ -130,7 +133,7 @@
                     <div class="flex-col czlonek-zespolu">
                         <img src="img/user-icon.png" alt="">
                         <figcaption>Filip Krawczak</figcaption>
-                        <p>Rola</p>
+                        <p>Programista</p>
                         <div class="kontakt-container">
                             <img src="img/letter-icon.png" alt="">
                             <p>fkrawczak@mat.umk.pl</p>
@@ -139,7 +142,7 @@
                     <div class="flex-col czlonek-zespolu">
                         <img src="img/user-icon.png" alt="">
                         <figcaption>Damian Kreński</figcaption>
-                        <p>Rola</p>
+                        <p>Programista</p>
                         <div class="kontakt-container">
                             <img src="img/letter-icon.png" alt="">
                             <p>dkrenski@mat.umk.pl</p>
@@ -149,44 +152,104 @@
             </div>
         </div>
 
-        <a href="#" name="dokumentacja"></a>
-        <div id="dokumentacja-container">
-            <h1>Dokumentacja</h1>
+        <a href="#" name="raporty"></a>
+        <div id="raporty-container">
+            <h1>Raporty semestralne</h1>
             <div class="flex-row">
-                <div class="flex-col dokumentacja-item">
-                    <input type="file" name="dok-adam" id="dok-adam" class="file-input">
-                    <label for="dok-adam" class="file-label flex-row">
+                <a>
+                    <div class="flex-col raporty-item">
+                        <label for="raporty-adrian" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport ogólny zespołu</p>
+                        </label>
+                    </div>
+                </a>
+                <a>
+                    <div class="flex-col raporty-item">
+                        <label for="raporty-adam" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport Adama <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                        </label>
+                    </div>
+                </a>
+                <a>
+                    <div class="flex-col raporty-item">
+                        <label for="raporty-kacper" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport Kacpra <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                        </label>
+                    </div>
+                </a>
+            </div>
+
+            <div class="flex-row">
+                <a>
+                    <div class="flex-col raporty-item">
+                        <!--<input type="file" name="raporty-adrian" id="raporty-adrian" class="file-input">-->
+                        <label for="raporty-adrian" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport Adriana <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                        </label>
+                    </div>
+                </a>
+                <a>
+                    <div class="flex-col raporty-item">
+                        <label for="raporty-filip" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport Filipa <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                        </label>
+                    </div>
+                </a>
+                <a>
+                    <div class="flex-col raporty-item">
+                        <label for="raporty-damian" class="file-label flex-row">
+                            <img src="img/pdf-icon.png" alt="">
+                            <p>Raport Damiana <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                        </label>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <a href="#" name="dokumentacja"></a>
+        <div id="raporty-container">
+            <h1>Dokumentacja projektu</h1>
+            <div class="flex-row">
+                <div class="flex-col raporty-item">
+                    <label for="raporty-adrian" class="file-label flex-row">
+                        <img src="img/pdf-icon.png" alt="">
+                        <p>Dokumentacja projektu</p>
+                    </label>
+                </div>
+                <div class="flex-col raporty-item">
+                    <label for="raporty-adam" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Adama</p>
                     </label>
                 </div>
-                <div class="flex-col dokumentacja-item">
-                    <input type="file" name="dok-kacper" id="dok-kacper" class="file-input">
-                    <label for="dok-kacper" class="file-label flex-row">
+                <div class="flex-col raporty-item">
+                    <label for="raporty-kacper" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Kacpra</p>
                     </label>
                 </div>
-                <div class="flex-col dokumentacja-item">
-                    <input type="file" name="dok-adrian" id="dok-adrian" class="file-input">
-                    <label for="dok-adrian" class="file-label flex-row">
+            </div>
+
+            <div class="flex-row">
+                <div class="flex-col raporty-item">
+                    <label for="raporty-adrian" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Adriana</p>
                     </label>
                 </div>
-            </div>
-
-            <div class="flex-row flex-row-evenly">
-                <div class="flex-col dokumentacja-item">
-                    <input type="file" name="dok-filip" id="dok-filip" class="file-input">
-                    <label for="dok-filip" class="file-label flex-row">
+                <div class="flex-col raporty-item">
+                    <label for="raporty-filip" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Filipa</p>
                     </label>
                 </div>
-                <div class="flex-col dokumentacja-item">
-                    <input type="file" name="dok-damian" id="dok-damian" class="file-input">
-                    <label for="dok-damian" class="file-label flex-row">
+                <div class="flex-col raporty-item">
+                    <label for="raporty-damian" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Damiana</p>
                     </label>

@@ -99,7 +99,7 @@ const harmonogramContent = `
         <div class="harmonogram-inner-container harmonogram-inner-container-left">
             <div class="harmonogram-left-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie stacjonarne (XIII)</h2>
+                    <h2>Spotkanie online (XIII)</h2>
                     <h4>Środa, 21 grudnia 12:00–2:00pm</h4>
                     <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Dyskutowanie na temat realizacji założeń ustalonych na poprzednim spotkaniu. Przedstawienie sprawy związanej z rodzajami paliw, dostawców map oraz POI - (Point Of Interest).</p>
                 </div>
@@ -126,7 +126,7 @@ const harmonogramContent = `
         <div class="harmonogram-inner-container harmonogram-inner-container-right">
             <div class="harmonogram-right-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie stacjonarne (XIX)</h2>
+                    <h2>Spotkanie online (XIX)</h2>
                     <h4>Środa, 18 stycznia 12:00–2:00pm</h4>
                     <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Zaprezentowanie wyników naszej tygodniowej pracy (baza danych ze stacjami, poprawienie modeli ML, pobieranie informacji z API o cenach średnich w Polsce). Poruszenie tematu braku informacji o niektórych stacjach - źródła, z których korzystamy nie zapewniają wszystkich informacji na temat niektórych stacji.</p>
                 </div>
@@ -135,7 +135,7 @@ const harmonogramContent = `
         <div class="harmonogram-inner-container harmonogram-inner-container-left">
             <div class="harmonogram-left-item-container">
                 <div class="harmonogram-item">
-                    <h2>Spotkanie stacjonarne (XX)</h2>
+                    <h2>Spotkanie online (XX)</h2>
                     <h4>Środa, 25 stycznia 12:00–1:00pm</h4>
                     <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Zaprezentowanie opiekunowi podstawowego szkicu aplikacji we Flutter. Dyskutowanie na temat postępów pracy oraz licencji oprogramowania używanego podczas tworzenia aplikacji.</p>
                 </div>
