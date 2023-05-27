@@ -28,7 +28,7 @@ const harmonogramButton = document.querySelector('.harmonogram-button');
 const planButton = document.querySelector('.plan-button');
 
 const harmonogramPlanContainer = document.querySelector('#harmonogram-plan-container');
-const harmonogram = document.querySelector('#harmonogram-container');
+const harmonogram = document.querySelector('#harmonogram-container-box');
 
 const harmonogramContent = `
     <div id="harmonogram-container">
@@ -141,6 +141,60 @@ const harmonogramContent = `
                 </div>
             </div>
         </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXI)</h2>
+                    <h4>Piątek, 17 lutego 12:00–1:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Prezentacja wytwarzania API do aplikacji przez doświadczonego programistę. Dyskusja, jak można wykorzystać tę wiedzę w przypadku naszego projektu aplikacji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXII)</h2>
+                    <h4>Wtorek, 21 lutego 12:00–2:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Prezentacja gotowego, innego projektu wykonanego przez doświadczonych programistów. Udzielenie na tym przykładzie wskazówek oraz porad, jak powinno wyglądać pisanie programów. Przedstawienie różnych podejść w programowaniu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXIII)</h2>
+                    <h4>Środa, 8 marca 2:45–3:45pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Prezentacja nowego wyglądu aplikacji oraz opcji logowania się użytkowników do aplikacji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXIV)</h2>
+                    <h4>Czwartek, 20 kwietnia 2:45–3:45pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu. Podczas spotkania: Organizacja spotkania z osobą odpowiedzialną na UX oraz z programistą Flutter, w celu zadania im nurtujących nas pytań związanych z wytwarzaniem aplikacji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXV)</h2>
+                    <h4>Wtorek, 25 kwietnia 3:00–4:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu oraz osobą zajmującą się UX. Podczas spotkania: Recenzja wyglądu aplikacji przez osobę zajmującą się UX. Zwrócenie kilku uwag i spostrzeżeń dotyczących ułożenia elementów na ekranie. Dyskusja na ten temat. Proponowanie pewnych zmian przez członków zespołu związanych z ogólnym designem aplikacji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-left">
+            <div class="harmonogram-left-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie online (XXVI)</h2>
+                    <h4>Wtorek, 27 kwietnia 2:00–3:00pm</h4>
+                    <p>Spotkanie online z opiekunem zespołu oraz osobą zajmującą się Flutterem. Podczas spotkania: Przedstawienie naszego pomysłu zaproszonej osobie. Wskazanie trudności, których doświadczyliśmy podczas tworzenia aplikacji. Próba ich rozwiązania. Dyskusja na temat nowych rozwiązań, które planujemy wprowadzić.</p>
+                </div>
+            </div>
+        </div>
     </div>`;
 
 harmonogram.innerHTML = harmonogramContent; // przy starcie strony
@@ -150,7 +204,7 @@ harmonogramButton.addEventListener('click', e => {
 
     harmonogram.innerHTML = harmonogramContent;
 
-    harmonogramPlanContainer.appendChild(harmonogram);
+    //harmonogramPlanContainer.appendChild(harmonogram);
 
     harmonogramButton.style.cursor = "default";
     planButton.style.cursor = "pointer";
@@ -206,7 +260,7 @@ planButton.addEventListener('click', e => {
             </div>
         </div>`;
 
-    harmonogramPlanContainer.appendChild(harmonogram);
+    //harmonogramPlanContainer.appendChild(harmonogram);
 
     planButton.style.cursor = "default";
     harmonogramButton.style.cursor = "pointer";

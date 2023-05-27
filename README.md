@@ -1,1 +1,1 @@
-# Strona, którą napisałem na potrzebę przedmiotu Programowanie Zespołowe 2022/2023 na Uniwersytecie Mikołaja Kopernika
+# Strona, którą napisałem na potrzebę przedmiotu Programowanie Zespołowe 2022/2023 na Uniwersytecie Mikołaja Kopernika - Wydział Matematyki i Informatyki

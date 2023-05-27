@@ -8,6 +8,7 @@
     <title>Zespol III</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3ba58f8d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
@@ -20,7 +21,9 @@
     <header>
         <div id="logo">
             <a href="#opis">
-                <p>Zespół III</p>
+                <p>ZESPÓŁ <span
+                        style="font-style: italic; border-top: 3px solid black; border-bottom: 3px solid black;">III</span>
+                </p>
             </a>
         </div>
 
@@ -36,10 +39,10 @@
                     <div class="menu-item">Zespół</div>
                 </a>
                 <a href="#raporty">
-                    <div class="menu-item">Raporty semestralne</div>
+                    <div class="menu-button">Raporty semestralne</div>
                 </a>
                 <a href="#dokumentacja">
-                    <div class="menu-item">Dokumentacja</div>
+                    <div class="menu-button">Dokumentacja</div>
                 </a>
             </div>
 
@@ -52,9 +55,12 @@
     </header>
 
     <div id="main-container">
-        <hr>
         <div id="opis-container" class="flex-col">
-            <h1>Aplikacja pozwalająca zaoszczędzić na paliwie</h1>
+            <div class="flex-row gap20">
+                <img src="img/icon.png" alt="icon">
+                <h1>Tanie Tankowanie</h1>
+            </div>
+            <h3>Aplikacja pozwalająca zaoszczędzić na paliwie.</h3>
             <p>Wysokie ceny paliw to zmora dzisiejszych kierowców. Naszym celem jest stworzenie aplikacji umożliwiającej
                 oszczędzanie pieniędzy podczas tankowania pojazdów. Będzie to możliwe dzięki wykorzystaniu
                 zaawansowanych technologii oraz wprowadzeniu prostego i intuicyjnego interfejsu użytkownika.</p>
@@ -63,11 +69,10 @@
         <div id="swiper-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/stacja1.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="img/stacja2.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="img/stacja3.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="img/stacja4.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="img/stacja5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/4.png" alt=""></div>
                 </div>
 
                 <div class="swiper-pagination"></div>
@@ -84,16 +89,17 @@
                 <button class="plan-button">Plan</button>
             </div>
 
-            <div id="harmonogram-container"></div>
+            <div id="harmonogram-container-box"></div>
         </div>
 
         <a href="#" name="zespol"></a>
         <div id="zespol-container">
             <h1>Członkowie zespołu</h1>
             <div id="zespol-inner-container">
-                <div class="flex-row">
+                <div class="flex-row gap20-media">
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <!--<img src="img/user-icon.png" alt="">-->
+                        <i class="fa-sharp fa-solid fa-circle-user"></i>
                         <figcaption>Szymon Skowroński</figcaption>
                         <p>Opiekun zespołu</p>
                         <div class="kontakt-container">
@@ -102,7 +108,7 @@
                         </div>
                     </div>
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <i class="fa-regular fa-circle-user"></i>
                         <figcaption>Adam Cieszyński</figcaption>
                         <p>Kierownik zespołu</p>
                         <div class="kontakt-container">
@@ -111,7 +117,7 @@
                         </div>
                     </div>
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <i class="fa-regular fa-circle-user"></i>
                         <figcaption>Kacper Raczyński</figcaption>
                         <p>Sekretarz zespołu</p>
                         <div class="kontakt-container">
@@ -120,9 +126,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex-row">
+                <div class="flex-row gap20-media">
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <i class="fa-regular fa-circle-user"></i>
                         <figcaption>Adrian Rodzic</figcaption>
                         <p>Programista</p>
                         <div class="kontakt-container">
@@ -131,7 +137,7 @@
                         </div>
                     </div>
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <i class="fa-regular fa-circle-user"></i>
                         <figcaption>Filip Krawczak</figcaption>
                         <p>Programista</p>
                         <div class="kontakt-container">
@@ -140,7 +146,7 @@
                         </div>
                     </div>
                     <div class="flex-col czlonek-zespolu">
-                        <img src="img/user-icon.png" alt="">
+                        <i class="fa-regular fa-circle-user"></i>
                         <figcaption>Damian Kreński</figcaption>
                         <p>Programista</p>
                         <div class="kontakt-container">
@@ -153,58 +159,59 @@
         </div>
 
         <a href="#" name="raporty"></a>
-        <div id="raporty-container">
+        <div class="raporty-container gap30">
             <h1>Raporty semestralne</h1>
-            <div class="flex-row">
-                <a>
+            <div class="flex-row gap20-media">
+                <a href="raporty/Sprawozdanie kierownkia zespołu.pdf" target="_blank">
                     <div class="flex-col raporty-item">
-                        <label for="raporty-adrian" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport ogólny zespołu</p>
+                        <label for="raporty-ogolny" class="file-label flex-row">
+                            <!--<img src="img/pdf-icon.png" alt="">-->
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <p class="file-label-p">Raport ogólny zespołu</p>
                         </label>
                     </div>
                 </a>
-                <a>
+                <a href="raporty/Adam Cieszynski-sprawozdanie.pdf" target="_blank">
                     <div class="flex-col raporty-item">
                         <label for="raporty-adam" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport Adama <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                            <i class="fa-regular fa-file-pdf"></i>
+                            <p>Raport<br />Adama</p>
                         </label>
                     </div>
                 </a>
-                <a>
+                <a href="raporty/Kacper Raczynski-sprawozdanie.pdf" target="_blank">
                     <div class="flex-col raporty-item">
                         <label for="raporty-kacper" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport Kacpra <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <p>Raport<br />Kacpra</p>
                         </label>
                     </div>
                 </a>
             </div>
 
-            <div class="flex-row">
-                <a>
+            <div class="flex-row gap20-media">
+                <a href="raporty/Adrian Rodzic-sprawozdanie.pdf" target="_blank">
                     <div class="flex-col raporty-item">
                         <!--<input type="file" name="raporty-adrian" id="raporty-adrian" class="file-input">-->
                         <label for="raporty-adrian" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport Adriana <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                            <i class="fa-regular fa-file-pdf"></i>
+                            <p>Raport<br />Adriana</p>
                         </label>
                     </div>
                 </a>
-                <a>
+                <a href="raporty/Filip Krawczak-sprawozdanie.pdf" target="_blank">
                     <div class="flex-col raporty-item">
                         <label for="raporty-filip" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport Filipa <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <p>Raport<br />Filipa</p>
                         </label>
                     </div>
                 </a>
-                <a>
+                <a href="raporty/Damian Krenski-sprawozdanie.pdf" target="_blank">
                     <div class="flex-col raporty-item">
                         <label for="raporty-damian" class="file-label flex-row">
-                            <img src="img/pdf-icon.png" alt="">
-                            <p>Raport Damiana <span style="color: rgba(0,0,0,0)">aaaaa</span></p>
+                            <i class="fa-regular fa-file-pdf"></i>
+                            <p>Raport<br />Damiana</p>
                         </label>
                     </div>
                 </a>
@@ -212,30 +219,34 @@
         </div>
 
         <a href="#" name="dokumentacja"></a>
-        <div id="raporty-container">
+        <div class="raporty-container gap30">
             <h1>Dokumentacja projektu</h1>
-            <div class="flex-row">
-                <div class="flex-col raporty-item">
-                    <label for="raporty-adrian" class="file-label flex-row">
-                        <img src="img/pdf-icon.png" alt="">
-                        <p>Dokumentacja projektu</p>
-                    </label>
-                </div>
-                <div class="flex-col raporty-item">
-                    <label for="raporty-adam" class="file-label flex-row">
-                        <img src="img/pdf-icon.png" alt="">
-                        <p>Dokumentacja Adama</p>
-                    </label>
-                </div>
-                <div class="flex-col raporty-item">
+            <div class="flex-row gap20">
+                <a href="dokumentacja/TanieTankowanieAPIs-Swagger-UI.html" target="_blank">
+                    <div class="flex-col dokumentacja-item">
+                        <label for="raporty-adrian" class="dokumentacja-file-label flex-row">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <p>Dokumentacja projektu</p>
+                        </label>
+                    </div>
+                </a>
+                <a href="dokumentacja/PodrecznikTanieTankowanie.pdf" target="_blank">
+                    <div class="flex-col dokumentacja-item">
+                        <label for="raporty-adam" class="dokumentacja-file-label flex-row">
+                            <i class="fa-regular fa-file-pdf"></i>
+                            <p>Podręcznik użytkownika</p>
+                        </label>
+                    </div>
+                </a>
+                <!--<div class="flex-col raporty-item">
                     <label for="raporty-kacper" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
                         <p>Dokumentacja Kacpra</p>
                     </label>
-                </div>
+                </div>-->
             </div>
 
-            <div class="flex-row">
+            <!--<div class="flex-row">
                 <div class="flex-col raporty-item">
                     <label for="raporty-adrian" class="file-label flex-row">
                         <img src="img/pdf-icon.png" alt="">
@@ -254,13 +265,18 @@
                         <p>Dokumentacja Damiana</p>
                     </label>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 
     <footer>
-        <marquee scrollamount="10">Uniwersytet Mikołaja Kopernika</marquee>
-        <p>Strona zespołu nr. III - Programowanie Zespołowe 2022/2023</p>
+        <hr>
+        <!--<marquee scrollamount="10">Uniwersytet Mikołaja Kopernika</marquee>-->
+        <p>Strona zespołu nr. <span
+                style="font-style: italic; border-top: 2px solid white; border-bottom: 2px solid white;">III</span>
+            &copy; - Programowanie Zespołowe 2022/2023
+        </p>
+        <hr>
     </footer>
 
     <script src="main.js" type="module"></script>
