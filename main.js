@@ -195,6 +195,15 @@ const harmonogramContent = `
                 </div>
             </div>
         </div>
+        <div class="harmonogram-inner-container harmonogram-inner-container-right">
+            <div class="harmonogram-right-item-container">
+                <div class="harmonogram-item">
+                    <h2>Spotkanie stacjonarne (XXVII)</h2>
+                    <h4>Środa, 24 maja 2:00-3:00pm</h4>
+                    <p>Spotkanie stacjonarne z opiekunem zespołu, ul. Łokietka 5, Toruń. Podczas spotkania: Przestawienie opiekunowi prezentacji aplikacji. Dyskusja na temat, co warto jeszcze umieścić w prezentacji, a co należy z niej usunąć. Zaprezentowanie opiekunowi zespołu ulotek prezentujących nasz projekt.</p>
+                </div>
+            </div>
+        </div>
     </div>`;
 
 harmonogram.innerHTML = harmonogramContent; // przy starcie strony

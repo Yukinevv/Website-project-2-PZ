@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zespol III</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <title>Tanie Tankowanie - Zespół III</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d3ba58f8d5.js" crossorigin="anonymous"></script>
@@ -69,10 +70,10 @@
         <div id="swiper-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/1.png" alt=""></div>
+                    <!-- <div class="swiper-slide"><img src="img/1.png" alt=""></div> -->
                     <div class="swiper-slide"><img src="img/2.png" alt=""></div>
                     <div class="swiper-slide"><img src="img/3.png" alt=""></div>
-                    <div class="swiper-slide"><img src="img/4.png" alt=""></div>
+                    <!-- <div class="swiper-slide"><img src="img/4.png" alt=""></div> -->
                 </div>
 
                 <div class="swiper-pagination"></div>
@@ -167,7 +168,7 @@
                         <label for="raporty-ogolny" class="file-label flex-row">
                             <!--<img src="img/pdf-icon.png" alt="">-->
                             <i class="fa-solid fa-file-pdf"></i>
-                            <p class="file-label-p">Raport ogólny zespołu</p>
+                            <p>Raport ogólny<br />zespołu</p>
                         </label>
                     </div>
                 </a>
@@ -219,31 +220,36 @@
         </div>
 
         <a href="#" name="dokumentacja"></a>
-        <div class="raporty-container gap30">
-            <h1>Dokumentacja projektu</h1>
+        <div class="raporty-container gap30 gap20-media">
+            <h1 class="margin-bottom-10-media">Dokumentacja projektu</h1>
             <div class="flex-row gap20">
                 <a href="dokumentacja/TanieTankowanieAPIs-Swagger-UI.html" target="_blank">
                     <div class="flex-col dokumentacja-item">
-                        <label for="raporty-adrian" class="dokumentacja-file-label flex-row">
+                        <label for="" class="dokumentacja-file-label flex-row">
                             <i class="fa-solid fa-file-pdf"></i>
-                            <p>Dokumentacja projektu</p>
+                            <p>Dokumentacja<br />API</p>
                         </label>
                     </div>
                 </a>
+                <a href="dokumentacja/api/index.html" target="_blank">
+                    <div class="flex-col dokumentacja-item">
+                        <label for="" class="dokumentacja-file-label flex-row">
+                            <i class="fa-regular fa-file-pdf"></i>
+                            <p>Dokumentacja<br />aplikacji</p>
+                        </label>
+                    </div>
+                </a>
+            </div>
+
+            <div class="flex-row flex-justify-center">
                 <a href="dokumentacja/PodrecznikTanieTankowanie.pdf" target="_blank">
                     <div class="flex-col dokumentacja-item">
-                        <label for="raporty-adam" class="dokumentacja-file-label flex-row">
+                        <label for="" class="dokumentacja-file-label flex-row">
                             <i class="fa-regular fa-file-pdf"></i>
-                            <p>Podręcznik użytkownika</p>
+                            <p>Podręcznik<br />użytkownika</p>
                         </label>
                     </div>
                 </a>
-                <!--<div class="flex-col raporty-item">
-                    <label for="raporty-kacper" class="file-label flex-row">
-                        <img src="img/pdf-icon.png" alt="">
-                        <p>Dokumentacja Kacpra</p>
-                    </label>
-                </div>-->
             </div>
 
             <!--<div class="flex-row">
